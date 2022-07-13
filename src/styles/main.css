@@ -20,7 +20,8 @@ las extensiones de archivo y los guiones principales se omiten.
   height: 40%;
   width: 95%;
   border: solid black;
-  font-size: 8em;
+  font-size: 5.5em;
+  user-select: none;
 }
 
 .settings {

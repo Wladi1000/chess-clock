@@ -98,7 +98,7 @@
     <div class="settings">
       <ion-icon name="play" v-show="pause" @click="pause = false"></ion-icon>
       <ion-icon name="pause" v-show="!pause" @click="pause = true"></ion-icon>
-      <ion-icon name="cog"></ion-icon>
+      <!-- <ion-icon name="cog"></ion-icon> -->
       <ion-icon name="refresh" @click="reStart()"></ion-icon>
     </div>
     
