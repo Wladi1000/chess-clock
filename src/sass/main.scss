@@ -1,0 +1,20 @@
+
+/*
+Hay otra forma de importar las partes de un proyecto que también que me parece válida.
+La parte positiva, es que hace que el fichero sea más legible. Pero por otro lado, actualizar
+el contenido puede ser un poco más doloroso. De todas formas, te dejaré decidir qué es lo
+mejor, en realidad no importa demasiado. Para hacer las cosas de esta manera, el archivo
+principal debe respetar las siguientes pautas:
+
+un @import por carpeta;
+un salto de línea después de cada @import;
+cada archivo debe ir en su propia línea;
+dejar una línea en blanco después del último archivo de una carpeta;
+las extensiones de archivo y los guiones principales se omiten.
+*/
+
+@import './base/typography';
+@import 
+  './components/reloj',
+  './components/settings';
+@import './pages/app';
